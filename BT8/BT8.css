@@ -1,0 +1,37 @@
+article {
+	width: 320px;
+	height: 100px;
+	border-bottom: 0.5px solid gray;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+img {
+	width: 190px;
+	height: 100px;
+	float: left;
+	margin-right: 17px;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+img:hover {
+	transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+}
+
+a {
+	text-decoration: none;
+	font-size: 13px;
+	font-family: verhana;
+	font-weight: bold;
+}
+
+a:hover {
+	color: blue;
+}
